@@ -1,0 +1,7 @@
+MODULES_MANAGER_V2
+root.__init__|/Users/domdopico/Desktop/InsightsEngineFiles/Insights Engine/src/root/__init__.py
+root.nested.__init__|/Users/domdopico/Desktop/InsightsEngineFiles/Insights Engine/src/root/nested/__init__.py
+root.nested.keys|/Users/domdopico/Desktop/InsightsEngineFiles/Insights Engine/src/root/nested/keys.py
+root.nested.md_in|/Users/domdopico/Desktop/InsightsEngineFiles/Insights Engine/src/root/nested/md_in.py
+root.nested.metadata_inject|/Users/domdopico/Desktop/InsightsEngineFiles/Insights Engine/src/root/nested/metadata_inject.py
+root.nested.trello|/Users/domdopico/Desktop/InsightsEngineFiles/Insights Engine/src/root/nested/trello.py
