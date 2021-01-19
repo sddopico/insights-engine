@@ -9,9 +9,9 @@ from google.auth.transport.requests import Request
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
-# The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '1Z5sVPcVs6vq2Gw8Qb6CSRSNOqMgBkRB9npizohqq5c0'
-SAMPLE_RANGE_NAME = 'Customers!B:B'
+# The ID and range of spreadsheet.
+SPREADSHEET_ID = '1Z5sVPcVs6vq2Gw8Qb6CSRSNOqMgBkRB9npizohqq5c0'
+#RANGE_NAME = 'Customers!B:B'
 
 
 def main(input):
@@ -42,7 +42,7 @@ def main(input):
 
     # Call the Sheets API
     sheet = service.spreadsheets()
-    result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+    result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
                                 range=rangeName).execute()
     values = result.get('values', [])
 
